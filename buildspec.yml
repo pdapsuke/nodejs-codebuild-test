@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - node -v
-      - npm ci
+      - npm install
   build:
     commands:
       - npm test
